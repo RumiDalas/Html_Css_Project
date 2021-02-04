@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: url(../IMG/school-logo2.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .90;
+    transition: opaciity.5s ease-in-out;
+}
+.main{
+    z-index: 2;
+}
+.center{
+    border-radius: 30px;
+    background: rgba(91, 88, 95, 0.6);
+
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: rgba(91, 88, 95, 0.6);
+}
+.logo{
+    width: 50px;
+    height: auto;
+    padding: 6px 10px;
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 8px ;
+    display: inline-block ;
+    line-height: 50px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: Arial black;
+    transition: .4s;
+} 
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: gray;
+    border-radius: 2px;
+}
+.main .center{
+    position: absolute;
+    padding: 10px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+
+}
+.center h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+}
+footer{
+    margin-top: 100vh;
+    background: rgba(13, 13, 14,.7);
+    width: 100%;
+    height: 85px;
+    color: white;
+}
+p#footer-text{
+    line-height: 4;
+    text-align: center;
+}
+/*Aboutt....*/
+
+.center .about{
+    margin: 0px 50px;
+    font-weight: bolder;
+    color: white;
+}
+.center.about.about-h{
+    font-weight: bolder;
+
+}
+
+a.aboutsite{
+    color: white;
+}
+a.aboutsite:hover{
+    color: grey;
+}
+/* Contact */
+
+
+form{
+    margin: auto;
+    width: 200%;
+    padding:35px;
+    font-weight: bolder;
+
+}
+.form-control{
+    display: block;
+    width: 40%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s;
+}
+.btn-primary:hover{
+    color: thistle;
+    background: gray;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400 ;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75 rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s;
+
+}
+
