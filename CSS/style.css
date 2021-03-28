@@ -45,7 +45,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15px;
     padding: 5px 10px;
     font-family: Arial black;
@@ -67,7 +67,7 @@
 
 }
 .center h1{
-    color: white;
+    color: black;
     font-size: 70px;
     font-weight: bold;
     width: auto;
@@ -75,7 +75,7 @@
 
 }
 .center h2{
-    color: white;
+    color: black;
     font-size: 25px;
     font-weight: bold;
     width: auto;
@@ -98,7 +98,7 @@ p#footer-text{
 .center .about{
     margin: 0px 50px;
     font-weight: bolder;
-    color: white;
+    color: black;
 }
 .center.about.about-h{
     font-weight: bolder;
@@ -106,7 +106,7 @@ p#footer-text{
 }
 
 a.aboutsite{
-    color: white;
+    color: black;
 }
 a.aboutsite:hover{
     color: grey;
